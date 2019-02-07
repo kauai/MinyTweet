@@ -36,6 +36,6 @@ app.use(require('./Routes'))
 //     console.log('servidor rodando nao porta 3000 ;)')
 // })
 //agora é usado server no lugar de app
-server.listen(3000,() => {
-        console.log('servidor rodando nao porta 3000 ;)')
+server.listen(3001,() => {
+        console.log('servidor rodando nao porta 3001 ;)')
 })
